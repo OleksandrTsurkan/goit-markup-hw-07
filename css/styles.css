@@ -264,10 +264,14 @@ body {
 }
 
 /* FEATURES section */
+.features-list {
+  margin-top: 96px;
+  margin-bottom: 96px;
+}
 .features-main {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  max-width: 768px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: 1px solid tomato;
 }
 
 .features-header-item,
@@ -290,14 +294,11 @@ body {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: #434455;
-  text-align: center;
-  
+  text-align: start;
 }
 .features-list-item {
-  width: 396px;
-  border: 1px solid tomato;
+  max-width: 396px;
   margin: auto;
-  
 }
 
 .features-list-item:not(:last-child) {
@@ -306,24 +307,11 @@ body {
 
 .features-list-item > h3 {
   margin-bottom: 8px;
-
 }
 
 /* WORKS section */
 
-.our-works {
-  padding-bottom: 120px;
-}
 
-.our-works-items {
-  margin-top: 72px;
-  display: flex;
-  gap: 24px;
-}
-.photos-works {
-  display: flex;
-  flex-wrap: nowrap;
-}
 
 /* TEAM section */
 
@@ -334,16 +322,20 @@ body {
 }
 
 .team-items {
-  display: flex;
+  
   margin-top: 72px;
 }
-
+/*
 .team-items > :not(:last-child) {
   margin-right: 24px;
 }
-
+*/
 .team-member {
   background-color: #ffffff;
+  border: 1px solid tomato;
+  width: 264px;
+  height: 428px;
+  margin: auto;
   text-align: center;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
