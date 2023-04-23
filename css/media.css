@@ -105,14 +105,39 @@
   }
 }
 
+@media (min-width: 768px) {
+  .team-items {
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 768px;
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+
+  .team-member:not(:last-child) {
+    margin-bottom: 0px;
+  }
+  .team-member:nth-child(1) {
+    margin-bottom: 64px;
+  }
+
+  .team-member:nth-child(2) {
+    margin-bottom: 64px;
+  }
+  .team-header-item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
+
 @media (max-width: 1157px) {
-  
-hero-container
-    .container {
+  hero-container .container {
     width: 1158px;
     border: 1px solid tomato;
   }
-    .features-item {
+  .features-item {
     display: none;
   }
   .container-works {
@@ -134,10 +159,8 @@ hero-container
     display: flex;
     gap: 23px;
   }
-  
 
   .features-list-item {
-
   }
 
   .features-list-item > h3 {
@@ -163,26 +186,48 @@ hero-container
     line-height: 1.2;
   }
 }
-  @media (min-width: 1158px) {
-    .our-works {
-      padding-bottom: 120px;
-      padding-left: 15px;
+@media (min-width: 1158px) {
+  .our-works {
+    padding-bottom: 120px;
+    padding-left: 15px;
     padding-right: 15px;
     max-width: 1200px;
-    border: 1px solid tomato;
+    
     margin: auto;
-    }
+  }
 
-    .our-works-items {
-      margin-top: 72px;
-      display: flex;
-      justify-content: space-between;
-      display: flex;
-      gap: 24px;
-    }
-    .photos-works {
-      display: flex;
-      flex-wrap: nowrap;
-    }
+  .our-works-items {
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    gap: 24px;
+  }
+  .photos-works {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (min-width: 1158px) {
+  .team-items {
+  display: flex;
+  
+  width: 1178px;
+  padding-left: 15px;
+  padding-right: 15px;
+  }
+  .team-items > :not(:last-child) {
+  margin-right: 23px;
+}
+.team-member:nth-child(1) {
+    margin-bottom: 0px;
+  }
+
+  .team-member:nth-child(2) {
+    margin-bottom: 0px;
+  }
+  .team-member {
+    margin: 0;
   }
 }
