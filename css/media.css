@@ -1,6 +1,6 @@
 @media (min-width: 220px) and (max-width: 350px) {
   .hero {
-    font-size: 29px;
+    font-size: 28px;
     line-height: 1.11;
   }
 }
@@ -8,6 +8,12 @@
   .features-header-text {
     font-size: 14px;
     line-height: 1.11;
+  }
+}
+
+@media (min-width: 220px) and (max-width: 410px) {
+  .customers-section-list {
+    justify-content: center;
   }
 }
 
@@ -75,6 +81,9 @@
     line-height: 1.07;
     max-width: 496px;
   }
+  .hero-main-text {
+    margin-bottom: 36px;
+}
   .features-list {
     display: flex;
     flex-wrap: wrap;
@@ -103,13 +112,16 @@
   .features-header-item {
     justify-content: start;
   }
+  .hero-section {
+    padding-bottom: 0px;
+}
 }
 
 @media (min-width: 768px) {
   .team-items {
     display: flex;
     flex-wrap: wrap;
-    
+
     width: 768px;
     padding-left: 108px;
     padding-right: 108px;
@@ -129,6 +141,23 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+  }
+}
+@media (min-width: 768px) {
+  .customers-section-container {
+    width: 168px;
+    height: 88px;
+  }
+  .customers-section-container:nth-child(4) {
+    margin-bottom: 0;
+  }
+  .customers-section-list {
+    max-width: 856px;
+    padding-left: 106px;
+    padding-right: 106px;
+  }
+  .customers-section {
+    padding-top: 96px;
   }
 }
 
@@ -192,7 +221,7 @@
     padding-left: 15px;
     padding-right: 15px;
     max-width: 1200px;
-    
+
     margin: auto;
   }
 
@@ -211,16 +240,16 @@
 
 @media (min-width: 1158px) {
   .team-items {
-  display: flex;
-  
-  width: 1178px;
-  padding-left: 15px;
-  padding-right: 15px;
+    display: flex;
+
+    width: 1178px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .team-items > :not(:last-child) {
-  margin-right: 23px;
-}
-.team-member:nth-child(1) {
+    margin-right: 23px;
+  }
+  .team-member:nth-child(1) {
     margin-bottom: 0px;
   }
 
@@ -231,8 +260,26 @@
     margin: 0;
   }
   .team-section {
-  
-  padding-top: 120px;
-  padding-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 }
+
+@media (min-width: 1157px) {
+  .customers-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .customers-section-container {
+    margin-bottom: 0;
+  }
+  .customers-section-list {
+    max-width: 1200px;
+    border: 1px solid tomato;
+  }
+  .customers-section-list {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
