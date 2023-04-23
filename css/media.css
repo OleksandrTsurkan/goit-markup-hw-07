@@ -230,4 +230,9 @@
   .team-member {
     margin: 0;
   }
+  .team-section {
+  
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 }

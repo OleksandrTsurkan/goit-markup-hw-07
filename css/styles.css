@@ -315,9 +315,8 @@ body {
 
 .team-section {
   background-color: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .team-items {
@@ -345,6 +344,10 @@ body {
 
 .team-header-item {
   margin-bottom: 8px;
+}
+
+.team-main-text {
+  margin-bottom: 72px;
 }
 
 .team-header-text {
@@ -382,17 +385,20 @@ body {
 
 /* CUSTOMERS */
 .customers-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 259px;
+  padding-bottom: 96px;
 }
 .customers-section-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin-top: 72px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .customers-section-container {
-  width: 168px;
+  width: 190px;
   height: 88px;
 }
 
