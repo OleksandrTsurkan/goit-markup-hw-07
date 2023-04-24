@@ -39,13 +39,12 @@
 
 @media (min-width: 220px) and (max-width: 390px) {
   .mob-telefon {
-  font-weight: 600;
-  font-size: 25px;
-  text-transform: capitalize;
-  font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-style: normal;
+  }
 }
-}
-
 
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -244,7 +243,12 @@
     width: 408px;
     padding: 72px 24px 24px 24px;
   }
-  
+  .mob-menu {
+    display: none;
+  }
+  .header-mob-munu-button {
+    display: none;
+  }
 }
 
 @media (max-width: 1157px) {
@@ -397,59 +401,63 @@
     display: none;
   }
 
-.header-navigation-nav {
-  display: flex;
-  margin-left: 120px;
-}
+  .header-navigation-nav {
+    display: flex;
+    margin-left: 120px;
+  }
 
-.header-navigation-nav > li:not(:last-child) {
-  margin-right: 40px;
-}
+  .header-navigation-nav > li:not(:last-child) {
+    margin-right: 40px;
+  }
+  .container-header {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
 
-.address-main {
-  font-style: normal;
-  display: flex;
-  margin-left: 101px;
-  margin-right: 16px;
-  margin-left: auto;
-}
-.auth-nav > ul {
-  display: inline-block;
-}
-.auth-nav > ul > li:not(:last-child) {
+  .address-main {
+    font-style: normal;
+    display: flex;
+    margin-left: 101px;
+    margin-right: 16px;
+    margin-left: auto;
+  }
+  .auth-nav > ul {
+    display: inline-block;
+  }
+  .auth-nav > ul > li:not(:last-child) {
     margin-right: 0px;
-}
+  }
 
-.address {
-  font-size: 12px;
-  line-height: 1.17;
-}
+  .address {
+    font-size: 12px;
+    line-height: 1.17;
+  }
 }
 
 @media (min-width: 1158px) {
-.auth-nav > ul {
-  display: flex;
-}
-.auth-nav > ul > li:not(:last-child) {
-  margin-right: 40px;
-}
+  .auth-nav > ul {
+    display: flex;
+  }
+  .auth-nav > ul > li:not(:last-child) {
+    margin-right: 40px;
+  }
 
-.header-navigation-nav {
-  margin-left: 76px;
-}
-.address {
-  font-size: 16px;
-  line-height: 1.5;
-}
-.header {
-  max-width: 1200px;
-  margin: auto;
-}
+  .header-navigation-nav {
+    margin-left: 76px;
+  }
+  .address {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .header {
+    max-width: 1200px;
+    margin: auto;
+  }
 }
 
 @media (min-width: 900px) and (max-width: 1158px) {
   .address {
-  font-size: 14px;
-  line-height: 1.5;
-}
+    font-size: 14px;
+    line-height: 1.5;
+  }
 }

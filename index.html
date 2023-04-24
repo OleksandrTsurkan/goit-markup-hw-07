@@ -54,76 +54,85 @@
           </ul>
         </address>
         <button type="button" data-menu-open class="header-mob-munu-button">
-          <svg class="header-menu" width="32px" height="24px">
+          <!--<svg class="header-menu" width="32px" height="24px">
             <use href="./images/symbol-defs.svg#icon-instagram"></use>
-          </svg>
+          </svg>-->
         </button>
       </div>
 
-      <div class="mob-menu" data-menu>
-        <button type="button" data-menu-close class=" button-mob-close">
-          <svg class="button-modal-svg" width="8px" height="8px">
-            <use href="images/symbol-defs-2.svg#icon-Vector"></use>
-          </svg>
-        </button>
-        <nav>
-          <ul class="list link mob-menu-list">
-            <li class="mob-list-li">
-              <a href="./index.html" class="mob-list-item current link">Studio</a>
+      <div class="mob-menu is-hidden" data-menu>
+        <div class="mob-menu-max">
+          <button type="button" data-menu-close class="button-mob-close">
+            <svg class="button-modal-svg" width="8px" height="8px">
+              <use href="images/symbol-defs-2.svg#icon-Vector"></use>
+            </svg>
+          </button>
+          <nav>
+            <ul class="list link mob-menu-list">
+              <li class="mob-list-li">
+                <a href="./index.html" class="mob-list-item current link"
+                  >Studio</a
+                >
+              </li>
+              <li class="mob-list-li">
+                <a href="./portfolio.html" class="mob-list-item link"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="mob-list-li">
+                <a href="" class="mob-list-item link">Contacts </a>
+              </li>
+            </ul>
+          </nav>
+          <address class="address-mob mob-auth-nav">
+            <ul class="list link adress-mob-list">
+              <li class="mob-adress-li">
+                <a href="tel:+110001111111" class="mob-telefon link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li>
+                <a href="mailto:info@devstudio.com" class="mob-address link"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="list link mob-social-list">
+            <li class="">
+              <a href="" class="link mob-social-item">
+                <svg class="" width="16px" height="16px">
+                  <use href="images/symbol-defs.svg#icon-instagram"></use></svg
+              ></a>
             </li>
-            <li class="mob-list-li">
-              <a href="./portfolio.html" class="mob-list-item link">Portfolio</a>
+            <li class="">
+              <a href="" class="link mob-social-item">
+                <svg class="" width="16px" height="16px">
+                  <use href="images/symbol-defs.svg#icon-twitter"></use></svg
+              ></a>
             </li>
-            <li class="mob-list-li"><a href="" class="mob-list-item link">Contacts </a></li>
+            <li class="">
+              <a href="" class="link mob-social-item">
+                <svg class="" width="16px" height="16px">
+                  <use href="images/symbol-defs.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+            <li class="">
+              <a href="" class="link mob-social-item">
+                <svg class="" width="16px" height="16px">
+                  <use href="images/symbol-defs.svg#icon-linkedin"></use></svg
+              ></a>
+            </li>
           </ul>
-        </nav>
-        <address class="address-mob mob-auth-nav">
-          <ul class="list link adress-mob-list">
-            <li  class="mob-adress-li">
-              <a href="tel:+110001111111" class="mob-telefon link"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-            <li>
-              <a href="mailto:info@devstudio.com" class="mob-address link"
-                >info@devstudio.com</a
-              >
-            </li>
-          </ul>
-        </address>
-        <ul class="list link mob-social-list">
-          <li class="">
-            <a href="" class="link mob-social-item">
-              <svg class="" width="16px" height="16px">
-                <use href="images/symbol-defs.svg#icon-instagram"></use></svg
-            ></a>
-          </li>
-          <li class="">
-            <a href="" class="link mob-social-item">
-              <svg class="" width="16px" height="16px">
-                <use href="images/symbol-defs.svg#icon-twitter"></use></svg
-            ></a>
-          </li>
-          <li class="">
-            <a href="" class="link mob-social-item">
-              <svg class="" width="16px" height="16px">
-                <use href="images/symbol-defs.svg#icon-facebook"></use></svg
-            ></a>
-          </li>
-          <li class="">
-            <a href="" class="link mob-social-item">
-              <svg class="" width="16px" height="16px">
-                <use href="images/symbol-defs.svg#icon-linkedin"></use></svg
-            ></a>
-          </li>
-        </ul>
+        </div>
       </div>
     </header>
-<main>
-
+    <main>
       <section class="hero-section">
         <div class="hero-container">
-          <h1 class="hero hero-main-text">Effective Solutions for Your Business</h1>
+          <h1 class="hero hero-main-text">
+            Effective Solutions for Your Business
+          </h1>
           <button type="button" data-modal-open class="button-hero">
             Order Service
           </button>
@@ -183,15 +192,15 @@
             </li>
           </ul>
         </div>
-        </section>
-         
+      </section>
+
       <section class="our-works">
         <div class="container container-works">
           <h2 class="header-item">What are we doing</h2>
           <ul class="list our-works-items">
             <li class="photos-works">
               <img
-              srcset="./images/photo-works1-2x.jpg"
+                srcset="./images/photo-works1-2x.jpg"
                 src="./images/photo1.jpg"
                 alt="computer"
                 width="360"
@@ -200,7 +209,7 @@
             </li>
             <li class="photos-works">
               <img
-              srcset="./images/photo-works2-2x.jpg"
+                srcset="./images/photo-works2-2x.jpg"
                 src="./images/photo2.jpg"
                 alt="phones"
                 width="360"
@@ -209,7 +218,7 @@
             </li>
             <li class="photos-works">
               <img
-              srcset="./images/photo-works3-2x.jpg"
+                srcset="./images/photo-works3-2x.jpg"
                 src="./images/photo3.jpg"
                 alt="phone in hand"
                 width="360"
@@ -219,7 +228,7 @@
           </ul>
         </div>
       </section>
-      
+
       <section class="team-section">
         <div class="container">
           <h2 class="header-item team-main-text">Our Team</h2>
@@ -227,7 +236,7 @@
             <li class="team-member">
               <img
                 srcset="./images/phototeam1-mob-2x.jpg"
-              src="./images/phototeam1-mob.jpg"
+                src="./images/phototeam1-mob.jpg"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
@@ -274,7 +283,7 @@
             <li class="team-member">
               <img
                 srcset="./images/phototeam2-mob-2x.jpg"
-              src="./images/phototeam2-mob.jpg"
+                src="./images/phototeam2-mob.jpg"
                 alt="Tom Ford"
                 width="264"
                 height="260"
@@ -321,7 +330,7 @@
             <li class="team-member">
               <img
                 srcset="./images/phototeam3-mob-2x.jpg"
-              src="./images/phototeam3-mob.jpg"
+                src="./images/phototeam3-mob.jpg"
                 alt="Camila Garcia"
                 width="264"
                 height="260"
@@ -368,7 +377,7 @@
             <li class="team-member">
               <img
                 srcset="./images/phototeam4-mob-2x.jpg"
-              src="./images/phototeam4-mob.jpg"
+                src="./images/phototeam4-mob.jpg"
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
@@ -458,15 +467,17 @@
             </li>
           </ul>
         </div>
-      </section> 
-    </main> 
-       <footer>
+      </section>
+    </main>
+    <footer>
       <section class="footer">
         <div class="container footer-container">
           <div class="footer-items">
-            <div> <a href="./index.html" class="main-link link"
-              >Web<span class="footer-link-span">Studio</span></a
-            ></div> 
+            <div>
+              <a href="./index.html" class="main-link link"
+                >Web<span class="footer-link-span">Studio</span></a
+              >
+            </div>
             <p class="footer-text">
               Increase the flow of customers and sales for your business with
               digital marketing & growth solutions.

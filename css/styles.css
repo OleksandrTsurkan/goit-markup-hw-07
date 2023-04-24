@@ -75,6 +75,9 @@ body {
 .container-header {
   align-items: center;
   display: flex;
+  padding-right: 16px;
+  padding-top: 24px;
+  padding-bottom: 22px;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -88,6 +91,12 @@ body {
   border-color: transparent;
   margin-left: auto;
   cursor: pointer;
+}
+
+.header-mob-munu-button {
+  width: 32px;
+  height: 24px;
+  background-image: url(../images/vector-menu.svg);
 }
 
 .header-navigation-nav {
@@ -957,6 +966,11 @@ body {
   padding-left: 40px;
   padding-bottom: 40px;
   padding-right: 35px;
+}
+
+.mob-menu-max {
+  max-width: 500px;
+  margin: auto;
 }
 
 .button-mob-close {
