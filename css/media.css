@@ -37,6 +37,9 @@
   }
 }
 
+
+
+
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
@@ -237,7 +240,7 @@
   
 }
 
-@media (max-width: 1158px) {
+@media (max-width: 1157px) {
   hero-container .container {
     width: 1158px;
   }
@@ -389,14 +392,12 @@
 
 .header-navigation-nav {
   display: flex;
-
   margin-left: 120px;
 }
 
 .header-navigation-nav > li:not(:last-child) {
   margin-right: 40px;
 }
-
 
 .address-main {
   font-style: normal;
@@ -436,5 +437,12 @@
 .header {
   max-width: 1200px;
   margin: auto;
+}
+}
+
+@media (min-width: 900px) and (max-width: 1158px) {
+  .address {
+  font-size: 14px;
+  line-height: 1.5;
 }
 }

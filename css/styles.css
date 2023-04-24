@@ -84,9 +84,10 @@ body {
 }
 
 .header-mob-munu-button {
-background-color: transparent;
-border-color: transparent;
-margin-left: auto;
+  background-color: transparent;
+  border-color: transparent;
+  margin-left: auto;
+  cursor: pointer;
 }
 
 .header-navigation-nav {
@@ -942,3 +943,8 @@ margin-left: auto;
   border: 1px solid #e7e9fc;
   border-top: 0;
 }
+
+
+/* MOB-MENU section */
+
+
