@@ -27,13 +27,13 @@
 }
 @media (min-width: 350px) and (max-width: 392px) {
   .modal {
-  width: 345px;
+    width: 345px;
   }
 }
 
 @media (min-width: 310px) and (max-width: 350px) {
   .modal {
-  width: 308px;
+    width: 308px;
   }
 }
 
@@ -82,7 +82,7 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/Dark-bg-comp.jpg);
-    max-width: 1200px;
+    max-width: 1440px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -230,9 +230,12 @@
 }
 
 @media (min-width: 768px) {
-
+  .modal {
+    width: 408px;
+    padding: 72px 24px 24px 24px;
+  }
+  
 }
-
 
 @media (max-width: 1158px) {
   hero-container .container {
@@ -378,3 +381,4 @@
     margin-bottom: 0;
   }
 }
+

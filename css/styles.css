@@ -455,8 +455,13 @@ body {
 }
 
 /* FOOTER */
-.footer-container {
+.footer {
   background-color: #2e2f42;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.footer-container {
   padding-bottom: 100px;
   padding-top: 100px;
   max-width: 768px;
@@ -479,11 +484,11 @@ body {
 
   width: 268px;
   display: block;
-   text-align: center;
-   margin-top: 16px;
-   margin-left: auto;
-   margin-right: auto;
-   margin-bottom: 72px;
+  text-align: center;
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 72px;
 }
 .footer-social-text {
   font-family: "Roboto";
@@ -550,7 +555,6 @@ body {
 }
 .form-footer-margin {
   margin-top: 16px;
-
 }
 .footer-telegram {
   margin-left: 16px;
