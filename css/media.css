@@ -37,7 +37,14 @@
   }
 }
 
-
+@media (min-width: 220px) and (max-width: 390px) {
+  .mob-telefon {
+  font-weight: 600;
+  font-size: 25px;
+  text-transform: capitalize;
+  font-style: normal;
+}
+}
 
 
 @media (min-device-pixel-ratio: 2),
