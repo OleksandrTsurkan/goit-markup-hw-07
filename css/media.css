@@ -382,3 +382,59 @@
   }
 }
 
+@media (min-width: 768px) {
+  .header-mob-munu-button {
+    display: none;
+  }
+
+.header-navigation-nav {
+  display: flex;
+
+  margin-left: 120px;
+}
+
+.header-navigation-nav > li:not(:last-child) {
+  margin-right: 40px;
+}
+
+
+.address-main {
+  font-style: normal;
+  display: flex;
+  margin-left: 101px;
+  margin-right: 16px;
+  margin-left: auto;
+}
+.auth-nav > ul {
+  display: inline-block;
+}
+.auth-nav > ul > li:not(:last-child) {
+    margin-right: 0px;
+}
+
+.address {
+  font-size: 12px;
+  line-height: 1.17;
+}
+}
+
+@media (min-width: 1158px) {
+.auth-nav > ul {
+  display: flex;
+}
+.auth-nav > ul > li:not(:last-child) {
+  margin-right: 40px;
+}
+
+.header-navigation-nav {
+  margin-left: 76px;
+}
+.address {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.header {
+  max-width: 1200px;
+  margin: auto;
+}
+}

@@ -83,10 +83,14 @@ body {
   align-items: center;
 }
 
-.header-navigation-nav {
-  display: flex;
+.header-mob-munu-button {
+background-color: transparent;
+border-color: transparent;
+margin-left: auto;
+}
 
-  margin-left: 76px;
+.header-navigation-nav {
+  display: none;
 }
 
 .header-navigation-nav > li:not(:last-child) {
@@ -94,6 +98,7 @@ body {
 }
 
 .main-link {
+  margin-left: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -162,7 +167,7 @@ body {
 }
 
 .address-main {
-  font-style: normal;
+  display: none;
 }
 
 .auth-nav {
