@@ -23,11 +23,6 @@
   }
 }
 
-@media (min-width: 850px) and (max-width: 1000px) {
-  .footer-items {
-    margin-right: 30px;
-  }
-}
 
 @media (min-width: 220px) and (max-width: 410px) {
   .customers-section-list {
@@ -126,7 +121,6 @@
     margin-bottom: 36px;
   }
 
-
   .features-main {
     margin: auto;
     padding-bottom: 96px;
@@ -146,11 +140,12 @@
 }
 
 @media (min-width: 768px) {
+  .features-header-item {
+    justify-content: start;
+  }
+
   .team-items {
-    display: flex;
-    flex-wrap: wrap;
     gap: 64px 24px;
-    justify-content: center; 
   }
 
   .team-header-item {
@@ -167,25 +162,20 @@
   .customers-section-container:nth-child(4) {
     margin-bottom: 0;
   }
-  .customers-section-list {
-    max-width: 856px;
-    padding-left: 108px;
-    padding-right: 108px;
-  }
+
   .customers-section {
     padding-top: 96px;
+  }
+  .customers-section-list {
+    gap: 72px 24px;
   }
 }
 @media (min-width: 768px) {
   .footer-container {
-    max-width: 1158px;
-    padding-left: 108px;
-    padding-right: 164px;
-    padding-bottom: 96px;
-    padding-top: 96px;
+    max-width: 550px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 72px 24px;
   }
   .footer-form {
     width: 453px;
@@ -295,12 +285,10 @@
 @media (min-width: 1158px) {
   .our-works {
     padding-bottom: 120px;
-    margin: auto;
   }
 
   .our-works-items {
     margin-top: 72px;
-    display: flex;
     justify-content: space-between;
     display: flex;
     gap: 24px;
@@ -308,16 +296,15 @@
   }
   .photos-works {
     display: flex;
-    flex-wrap: nowrap;
   }
 }
 
 @media (min-width: 1158px) {
   .team-items {
     display: flex;
+    gap: 0 24px;
   }
 
- 
   .team-section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -330,33 +317,27 @@
     padding-bottom: 120px;
   }
 
-  .customers-section-container {
-    margin-bottom: 0;
+  .customers-list{
+    gap: 0 24px;
   }
-  .customers-section-list {
-    max-width: 1200px;
-  }
-  .customers-section-list {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+
 }
 
 @media (min-width: 1158px) {
   .footer-container {
     max-width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    display: flex;
-    flex-wrap: nowrap;
-    margin: auto;
+    gap: 0;
   }
 
   .footer-form {
     margin-top: 0;
   }
-  .footer-text {
-    margin-bottom: 0;
+.footer-items {
+    margin-right: 120px;
+  }
+
+  .footer-social {
+    margin-right: 80px;
   }
 }
 
