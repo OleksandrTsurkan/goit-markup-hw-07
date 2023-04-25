@@ -79,7 +79,7 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/Dark-bg-tab.jpg);
-    
+    max-width: 768px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -95,7 +95,7 @@
   }
 }
 
-@media (min-width: 1558px) {
+@media (min-width: 1158px) {
   .hero-section {
     background-image: linear-gradient(
         to right,
@@ -103,7 +103,7 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/Dark-bg-comp.jpg);
-    
+    max-width: 1440px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -125,25 +125,9 @@
   .hero-main-text {
     margin-bottom: 36px;
   }
-  .features-list {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 950px;
-    margin: auto;
-  }
-  .features-list-item:nth-child(1) {
-    margin-bottom: 72px;
-  }
-  .features-list-item:nth-child(n + 3) {
-    margin-bottom: 0;
-  }
-  .features-list-item:nth-child(4) {
-    margin-top: 0;
-  }
+
+
   .features-main {
-    padding-left: 15px;
-    padding-right: 15px;
-    max-width: 1200px;
     margin: auto;
     padding-bottom: 96px;
   }
@@ -165,21 +149,10 @@
   .team-items {
     display: flex;
     flex-wrap: wrap;
-    max-width: 900px;
-    padding-left: 108px;
-    padding-right: 108px;
+    gap: 64px 24px;
+    justify-content: center; 
   }
 
-  .team-member:not(:last-child) {
-    margin-bottom: 0px;
-  }
-  .team-member:nth-child(1) {
-    margin-bottom: 64px;
-  }
-
-  .team-member:nth-child(2) {
-    margin-bottom: 64px;
-  }
   .team-header-item {
     font-weight: 500;
     font-size: 20px;
@@ -291,13 +264,9 @@
   .features-list {
     display: flex;
     gap: 23px;
-    max-width: 1200px;
   }
   .features-main {
     padding-bottom: 120px;
-  }
-
-  .features-list-item {
   }
 
   .features-list-item > h3 {
@@ -326,10 +295,6 @@
 @media (min-width: 1158px) {
   .our-works {
     padding-bottom: 120px;
-    padding-left: 15px;
-    padding-right: 15px;
-    max-width: 1200px;
-
     margin: auto;
   }
 
@@ -350,22 +315,9 @@
 @media (min-width: 1158px) {
   .team-items {
     display: flex;
-    max-width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    justify-content: space-between;
   }
 
-  .team-member:nth-child(1) {
-    margin-bottom: 0px;
-  }
-
-  .team-member:nth-child(2) {
-    margin-bottom: 0px;
-  }
-  .team-member {
-    margin: 0;
-  }
+ 
   .team-section {
     padding-top: 120px;
     padding-bottom: 120px;
