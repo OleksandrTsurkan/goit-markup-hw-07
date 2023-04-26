@@ -114,6 +114,8 @@ body {
 }
 
 .main-link {
+  display: flex;
+  justify-content: center;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -480,6 +482,7 @@ body {
   flex-wrap: wrap;
   gap: 72px 0;
   justify-content: center;
+  background-color: #2e2f42;
 }
 
 .footer-link-span {
